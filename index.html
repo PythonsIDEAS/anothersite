@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Профессиональные Услуги - Ваш Надежный Партнер</title>
+    <title>СтройМастер - Строительство и ремонт в СПб</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -11,15 +11,18 @@
     <nav class="navbar">
         <div class="nav-container">
             <div class="logo">
-                <h2>ПрофСервис</h2>
+                <h2>СтройМастер</h2>
             </div>
             <ul class="nav-menu">
                 <li><a href="#home">Главная</a></li>
                 <li><a href="#services">Услуги</a></li>
-                <li><a href="#about">О нас</a></li>
-                <li><a href="#portfolio">Портфолио</a></li>
+                <li><a href="#projects">Проекты</a></li>
+                <li><a href="#about">О компании</a></li>
                 <li><a href="#contact">Контакты</a></li>
             </ul>
+            <div class="phone-number">
+                <span>📞 +7 (812) 123-45-67</span>
+            </div>
             <div class="hamburger">
                 <span></span>
                 <span></span>
@@ -31,17 +34,32 @@
     <!-- Главная секция -->
     <section id="home" class="hero">
         <div class="hero-content">
-            <h1>Профессиональные Решения для Вашего Бизнеса</h1>
-            <p>Мы предоставляем высококачественные услуги и инновационные решения для развития вашего бизнеса</p>
+            <h1>Строительство и ремонт в Санкт-Петербурге</h1>
+            <p>Профессиональные строительные услуги от фундамента до крыши. Качество, надежность и гарантия на все виды работ.</p>
+            <div class="hero-features">
+                <div class="feature">
+                    <span class="feature-icon">🏗️</span>
+                    <span>15+ лет опыта</span>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">✅</span>
+                    <span>Гарантия качества</span>
+                </div>
+                <div class="feature">
+                    <span class="feature-icon">💰</span>
+                    <span>Честные цены</span>
+                </div>
+            </div>
             <div class="hero-buttons">
-                <button class="btn-primary">Начать сотрудничество</button>
-                <button class="btn-secondary">Узнать больше</button>
+                <button class="btn-primary">Заказать расчет</button>
+                <button class="btn-secondary">Наши работы</button>
             </div>
         </div>
         <div class="hero-image">
-            <div class="floating-card">
-                <h3>Качество</h3>
-                <p>Гарантируем высокое качество всех наших услуг</p>
+            <div class="construction-card">
+                <h3>Бесплатный расчет</h3>
+                <p>Выезд инженера и составление сметы в течение 24 часов</p>
+                <button class="card-btn">Вызвать инженера</button>
             </div>
         </div>
     </section>
@@ -49,31 +67,204 @@
     <!-- Услуги -->
     <section id="services" class="services">
         <div class="container">
-            <h2>Наши Услуги</h2>
+            <h2>Наши строительные услуги</h2>
             <div class="services-grid">
                 <div class="service-card">
-                    <div class="service-icon">💼</div>
-                    <h3>Бизнес Консультации</h3>
-                    <p>Профессиональные консультации по развитию и оптимизации бизнес-процессов</p>
+                    <div class="service-icon">🏠</div>
+                    <h3>Строительство домов</h3>
+                    <p>Возведение частных домов, коттеджей и дач под ключ. От проекта до сдачи объекта.</p>
+                    <ul class="service-list">
+                        <li>Каркасные дома</li>
+                        <li>Дома из бруса</li>
+                        <li>Кирпичные дома</li>
+                        <li>Дома из газобетона</li>
+                    </ul>
+                    <div class="service-price">от 25 000 ₽/м²</div>
                     <button class="service-btn">Подробнее</button>
                 </div>
+                
                 <div class="service-card">
-                    <div class="service-icon">🚀</div>
-                    <h3>Цифровые Решения</h3>
-                    <p>Разработка и внедрение современных цифровых технологий для вашего бизнеса</p>
+                    <div class="service-icon">🔨</div>
+                    <h3>Ремонт квартир</h3>
+                    <p>Капитальный и косметический ремонт квартир любой сложности в Санкт-Петербурге.</p>
+                    <ul class="service-list">
+                        <li>Косметический ремонт</li>
+                        <li>Капитальный ремонт</li>
+                        <li>Дизайнерский ремонт</li>
+                        <li>Ремонт под ключ</li>
+                    </ul>
+                    <div class="service-price">от 3 500 ₽/м²</div>
                     <button class="service-btn">Подробнее</button>
                 </div>
+                
                 <div class="service-card">
-                    <div class="service-icon">📊</div>
-                    <h3>Аналитика и Отчетность</h3>
-                    <p>Комплексный анализ данных и создание детальных отчетов для принятия решений</p>
+                    <div class="service-icon">🏢</div>
+                    <h3>Коммерческое строительство</h3>
+                    <p>Строительство офисных зданий, торговых центров, складских комплексов.</p>
+                    <ul class="service-list">
+                        <li>Офисные здания</li>
+                        <li>Торговые центры</li>
+                        <li>Складские помещения</li>
+                        <li>Производственные цеха</li>
+                    </ul>
+                    <div class="service-price">от 18 000 ₽/м²</div>
                     <button class="service-btn">Подробнее</button>
                 </div>
+                
                 <div class="service-card">
-                    <div class="service-icon">🎯</div>
-                    <h3>Маркетинговые Стратегии</h3>
-                    <p>Разработка эффективных маркетинговых кампаний и стратегий продвижения</p>
+                    <div class="service-icon">🏗️</div>
+                    <h3>Фундаментные работы</h3>
+                    <p>Устройство всех типов фундаментов с гарантией качества и соблюдением технологий.</p>
+                    <ul class="service-list">
+                        <li>Ленточный фундамент</li>
+                        <li>Свайный фундамент</li>
+                        <li>Плитный фундамент</li>
+                        <li>Столбчатый фундамент</li>
+                    </ul>
+                    <div class="service-price">от 4 500 ₽/м³</div>
                     <button class="service-btn">Подробнее</button>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🏠</div>
+                    <h3>Кровельные работы</h3>
+                    <p>Монтаж и ремонт кровли любой сложности. Работаем с любыми материалами.</p>
+                    <ul class="service-list">
+                        <li>Металлочерепица</li>
+                        <li>Профнастил</li>
+                        <li>Мягкая кровля</li>
+                        <li>Натуральная черепица</li>
+                    </ul>
+                    <div class="service-price">от 800 ₽/м²</div>
+                    <button class="service-btn">Подробнее</button>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">🔧</div>
+                    <h3>Инженерные системы</h3>
+                    <p>Проектирование и монтаж всех инженерных коммуникаций в доме.</p>
+                    <ul class="service-list">
+                        <li>Электромонтаж</li>
+                        <li>Водоснабжение</li>
+                        <li>Отопление</li>
+                        <li>Вентиляция</li>
+                    </ul>
+                    <div class="service-price">от 1 200 ₽/м²</div>
+                    <button class="service-btn">Подробнее</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Преимущества -->
+    <section class="advantages">
+        <div class="container">
+            <h2>Почему выбирают нас</h2>
+            <div class="advantages-grid">
+                <div class="advantage-item">
+                    <div class="advantage-icon">📋</div>
+                    <h3>Официальный договор</h3>
+                    <p>Все работы выполняются по договору с фиксированными сроками и стоимостью</p>
+                </div>
+                <div class="advantage-item">
+                    <div class="advantage-icon">🛡️</div>
+                    <h3>Гарантия 5 лет</h3>
+                    <p>Предоставляем расширенную гарантию на все виды строительных работ</p>
+                </div>
+                <div class="advantage-item">
+                    <div class="advantage-icon">👷</div>
+                    <h3>Опытные мастера</h3>
+                    <p>В команде работают только квалифицированные специалисты с опытом от 10 лет</p>
+                </div>
+                <div class="advantage-item">
+                    <div class="advantage-icon">💎</div>
+                    <h3>Качественные материалы</h3>
+                    <p>Используем только сертифицированные материалы от проверенных поставщиков</p>
+                </div>
+                <div class="advantage-item">
+                    <div class="advantage-icon">⏰</div>
+                    <h3>Соблюдение сроков</h3>
+                    <p>Строго придерживаемся установленных сроков выполнения работ</p>
+                </div>
+                <div class="advantage-item">
+                    <div class="advantage-icon">💰</div>
+                    <h3>Прозрачное ценообразование</h3>
+                    <p>Никаких скрытых доплат - окончательная стоимость фиксируется в договоре</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Проекты -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Наши проекты</h2>
+            <div class="projects-filter">
+                <button class="filter-btn active" data-filter="all">Все проекты</button>
+                <button class="filter-btn" data-filter="houses">Дома</button>
+                <button class="filter-btn" data-filter="apartments">Квартиры</button>
+                <button class="filter-btn" data-filter="commercial">Коммерческие</button>
+            </div>
+            <div class="projects-grid">
+                <div class="project-item" data-category="houses">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/106399/pexels-photo-106399.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Дом из бруса">
+                        <div class="project-overlay">
+                            <h3>Дом из бруса 150м²</h3>
+                            <p>Московская область</p>
+                            <button class="project-btn">Подробнее</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item" data-category="apartments">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/1571460/pexels-photo-1571460.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Ремонт квартиры">
+                        <div class="project-overlay">
+                            <h3>Ремонт 3-комн. квартиры</h3>
+                            <p>Санкт-Петербург</p>
+                            <button class="project-btn">Подробнее</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item" data-category="commercial">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/380769/pexels-photo-380769.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Офисное здание">
+                        <div class="project-overlay">
+                            <h3>Офисное здание 2000м²</h3>
+                            <p>Ленинградская область</p>
+                            <button class="project-btn">Подробнее</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item" data-category="houses">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/1396122/pexels-photo-1396122.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Каркасный дом">
+                        <div class="project-overlay">
+                            <h3>Каркасный дом 120м²</h3>
+                            <p>Ленинградская область</p>
+                            <button class="project-btn">Подробнее</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item" data-category="apartments">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/1571468/pexels-photo-1571468.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Дизайнерский ремонт">
+                        <div class="project-overlay">
+                            <h3>Дизайнерский ремонт</h3>
+                            <p>Санкт-Петербург</p>
+                            <button class="project-btn">Подробнее</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-item" data-category="commercial">
+                    <div class="project-image">
+                        <img src="https://images.pexels.com/photos/1571453/pexels-photo-1571453.jpeg?auto=compress&cs=tinysrgb&w=500" alt="Торговый центр">
+                        <div class="project-overlay">
+                            <h3>Торговый центр 5000м²</h3>
+                            <p>Санкт-Петербург</p>
+                            <button class="project-btn">Подробнее</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -84,71 +275,30 @@
         <div class="container">
             <div class="about-content">
                 <div class="about-text">
-                    <h2>О Нашей Компании</h2>
-                    <p>Мы - команда профессионалов с многолетним опытом работы в различных сферах бизнеса. Наша миссия - помочь компаниям достичь новых высот через инновационные решения и качественный сервис.</p>
+                    <h2>О компании СтройМастер</h2>
+                    <p>Мы - ведущая строительная компания Санкт-Петербурга с 15-летним опытом работы. Специализируемся на строительстве частных домов, ремонте квартир и коммерческом строительстве.</p>
+                    <p>Наша команда состоит из высококвалифицированных специалистов, которые используют современные технологии и качественные материалы для достижения наилучших результатов.</p>
                     <div class="stats">
                         <div class="stat">
-                            <h3>500+</h3>
-                            <p>Довольных клиентов</p>
+                            <h3>800+</h3>
+                            <p>Завершенных проектов</p>
                         </div>
                         <div class="stat">
-                            <h3>10+</h3>
-                            <p>Лет опыта</p>
+                            <h3>15+</h3>
+                            <p>Лет на рынке</p>
                         </div>
                         <div class="stat">
-                            <h3>1000+</h3>
-                            <p>Проектов выполнено</p>
+                            <h3>50+</h3>
+                            <p>Специалистов в команде</p>
+                        </div>
+                        <div class="stat">
+                            <h3>5</h3>
+                            <p>Лет гарантии</p>
                         </div>
                     </div>
                 </div>
                 <div class="about-image">
-                    <div class="image-placeholder">
-                        <div class="team-card">
-                            <h4>Наша Команда</h4>
-                            <p>Опытные специалисты готовы решить любые задачи</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Портфолио -->
-    <section id="portfolio" class="portfolio">
-        <div class="container">
-            <h2>Наши Проекты</h2>
-            <div class="portfolio-grid">
-                <div class="portfolio-item">
-                    <div class="portfolio-image"></div>
-                    <div class="portfolio-content">
-                        <h3>Проект А</h3>
-                        <p>Комплексная автоматизация бизнес-процессов</p>
-                        <span class="portfolio-tag">Автоматизация</span>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="portfolio-image"></div>
-                    <div class="portfolio-content">
-                        <h3>Проект Б</h3>
-                        <p>Разработка мобильного приложения</p>
-                        <span class="portfolio-tag">Разработка</span>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="portfolio-image"></div>
-                    <div class="portfolio-content">
-                        <h3>Проект В</h3>
-                        <p>Маркетинговая кампания и брендинг</p>
-                        <span class="portfolio-tag">Маркетинг</span>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="portfolio-image"></div>
-                    <div class="portfolio-content">
-                        <h3>Проект Г</h3>
-                        <p>Консалтинг и оптимизация процессов</p>
-                        <span class="portfolio-tag">Консалтинг</span>
-                    </div>
+                    <img src="https://images.pexels.com/photos/1216589/pexels-photo-1216589.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Строительная команда">
                 </div>
             </div>
         </div>
@@ -157,23 +307,32 @@
     <!-- Отзывы -->
     <section class="testimonials">
         <div class="container">
-            <h2>Отзывы Клиентов</h2>
+            <h2>Отзывы наших клиентов</h2>
             <div class="testimonials-slider">
                 <div class="testimonial active">
                     <div class="testimonial-content">
-                        <p>"Отличная работа! Команда профессионалов помогла нам значительно улучшить наши бизнес-процессы."</p>
+                        <p>"Отличная работа! Построили дом точно в срок, качество на высшем уровне. Рекомендую всем!"</p>
                         <div class="testimonial-author">
-                            <h4>Анна Петрова</h4>
-                            <span>Директор ООО "Инновации"</span>
+                            <h4>Александр Петров</h4>
+                            <span>Строительство дома в Пушкине</span>
                         </div>
                     </div>
                 </div>
                 <div class="testimonial">
                     <div class="testimonial-content">
-                        <p>"Результат превзошел все ожидания. Рекомендую всем, кто ищет качественные решения."</p>
+                        <p>"Делали ремонт квартиры. Очень довольны результатом! Все сделано качественно и аккуратно."</p>
                         <div class="testimonial-author">
-                            <h4>Михаил Сидоров</h4>
-                            <span>CEO "ТехноСтарт"</span>
+                            <h4>Мария Сидорова</h4>
+                            <span>Ремонт квартиры на Васильевском острове</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial">
+                    <div class="testimonial-content">
+                        <p>"Профессиональный подход к делу. Построили офисное здание быстро и качественно."</p>
+                        <div class="testimonial-author">
+                            <h4>Игорь Волков</h4>
+                            <span>Директор ООО "Северная компания"</span>
                         </div>
                     </div>
                 </div>
@@ -181,6 +340,52 @@
             <div class="testimonial-dots">
                 <span class="dot active" onclick="currentSlide(1)"></span>
                 <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Калькулятор -->
+    <section class="calculator">
+        <div class="container">
+            <h2>Калькулятор стоимости</h2>
+            <div class="calculator-form">
+                <div class="calc-step active" data-step="1">
+                    <h3>Выберите тип работ</h3>
+                    <div class="calc-options">
+                        <label class="calc-option">
+                            <input type="radio" name="service" value="house" data-price="25000">
+                            <span>Строительство дома</span>
+                        </label>
+                        <label class="calc-option">
+                            <input type="radio" name="service" value="apartment" data-price="3500">
+                            <span>Ремонт квартиры</span>
+                        </label>
+                        <label class="calc-option">
+                            <input type="radio" name="service" value="commercial" data-price="18000">
+                            <span>Коммерческое строительство</span>
+                        </label>
+                    </div>
+                </div>
+                
+                <div class="calc-step" data-step="2">
+                    <h3>Укажите площадь (м²)</h3>
+                    <input type="number" id="area" placeholder="Введите площадь" min="1">
+                </div>
+                
+                <div class="calc-result">
+                    <h3>Примерная стоимость:</h3>
+                    <div class="price-display">
+                        <span id="calculated-price">0 ₽</span>
+                    </div>
+                    <p class="price-note">*Точная стоимость определяется после выезда инженера</p>
+                    <button class="btn-primary" id="order-calculation">Заказать точный расчет</button>
+                </div>
+                
+                <div class="calc-navigation">
+                    <button class="calc-btn" id="calc-prev" style="display: none;">Назад</button>
+                    <button class="calc-btn" id="calc-next">Далее</button>
+                </div>
             </div>
         </div>
     </section>
@@ -188,45 +393,64 @@
     <!-- Контакты -->
     <section id="contact" class="contact">
         <div class="container">
-            <h2>Свяжитесь с Нами</h2>
+            <h2>Контакты</h2>
             <div class="contact-content">
                 <div class="contact-info">
                     <div class="contact-item">
                         <div class="contact-icon">📍</div>
                         <div>
-                            <h4>Адрес</h4>
-                            <p>г. Москва, ул. Примерная, д. 123</p>
+                            <h4>Адрес офиса</h4>
+                            <p>г. Санкт-Петербург, ул. Строителей, д. 15, оф. 201</p>
                         </div>
                     </div>
                     <div class="contact-item">
                         <div class="contact-icon">📞</div>
                         <div>
                             <h4>Телефон</h4>
-                            <p>+7 (495) 123-45-67</p>
+                            <p>+7 (812) 123-45-67</p>
+                            <p>+7 (921) 987-65-43</p>
                         </div>
                     </div>
                     <div class="contact-item">
                         <div class="contact-icon">✉️</div>
                         <div>
                             <h4>Email</h4>
-                            <p>info@profservice.ru</p>
+                            <p>info@stroymaster-spb.ru</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">⏰</div>
+                        <div>
+                            <h4>Режим работы</h4>
+                            <p>Пн-Пт: 9:00 - 18:00</p>
+                            <p>Сб-Вс: 10:00 - 16:00</p>
                         </div>
                     </div>
                 </div>
                 <form class="contact-form">
+                    <h3>Заказать обратный звонок</h3>
                     <div class="form-group">
                         <input type="text" placeholder="Ваше имя" required>
                     </div>
                     <div class="form-group">
-                        <input type="email" placeholder="Email" required>
+                        <input type="tel" placeholder="Телефон" required>
                     </div>
                     <div class="form-group">
-                        <input type="tel" placeholder="Телефон">
+                        <select required>
+                            <option value="">Выберите услугу</option>
+                            <option value="house">Строительство дома</option>
+                            <option value="apartment">Ремонт квартиры</option>
+                            <option value="commercial">Коммерческое строительство</option>
+                            <option value="foundation">Фундаментные работы</option>
+                            <option value="roof">Кровельные работы</option>
+                            <option value="engineering">Инженерные системы</option>
+                        </select>
                     </div>
                     <div class="form-group">
-                        <textarea placeholder="Сообщение" rows="5" required></textarea>
+                        <textarea placeholder="Комментарий" rows="4"></textarea>
                     </div>
-                    <button type="submit" class="btn-primary">Отправить сообщение</button>
+                    <button type="submit" class="btn-primary">Отправить заявку</button>
+                    <p class="form-note">Нажимая кнопку, вы соглашаетесь с обработкой персональных данных</p>
                 </form>
             </div>
         </div>
@@ -237,42 +461,48 @@
         <div class="container">
             <div class="footer-content">
                 <div class="footer-section">
-                    <h3>ПрофСервис</h3>
-                    <p>Ваш надежный партнер в развитии бизнеса</p>
+                    <h3>СтройМастер</h3>
+                    <p>Профессиональное строительство и ремонт в Санкт-Петербурге</p>
                     <div class="social-links">
-                        <a href="#">📘</a>
-                        <a href="#">📷</a>
-                        <a href="#">🐦</a>
-                        <a href="#">💼</a>
+                        <a href="#" title="ВКонтакте">🔵</a>
+                        <a href="#" title="Telegram">📱</a>
+                        <a href="#" title="WhatsApp">💬</a>
+                        <a href="#" title="Instagram">📷</a>
                     </div>
                 </div>
                 <div class="footer-section">
                     <h4>Услуги</h4>
                     <ul>
-                        <li><a href="#">Консультации</a></li>
-                        <li><a href="#">Разработка</a></li>
-                        <li><a href="#">Аналитика</a></li>
-                        <li><a href="#">Маркетинг</a></li>
+                        <li><a href="#services">Строительство домов</a></li>
+                        <li><a href="#services">Ремонт квартир</a></li>
+                        <li><a href="#services">Коммерческое строительство</a></li>
+                        <li><a href="#services">Фундаментные работы</a></li>
+                        <li><a href="#services">Кровельные работы</a></li>
+                        <li><a href="#services">Инженерные системы</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
-                    <h4>Компания</h4>
+                    <h4>Информация</h4>
                     <ul>
-                        <li><a href="#">О нас</a></li>
-                        <li><a href="#">Команда</a></li>
-                        <li><a href="#">Карьера</a></li>
+                        <li><a href="#about">О компании</a></li>
+                        <li><a href="#projects">Наши проекты</a></li>
+                        <li><a href="#">Лицензии</a></li>
+                        <li><a href="#">Гарантии</a></li>
+                        <li><a href="#">Вакансии</a></li>
                         <li><a href="#">Новости</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
                     <h4>Контакты</h4>
-                    <p>г. Москва, ул. Примерная, д. 123</p>
-                    <p>+7 (495) 123-45-67</p>
-                    <p>info@profservice.ru</p>
+                    <p>📍 г. Санкт-Петербург, ул. Строителей, д. 15</p>
+                    <p>📞 +7 (812) 123-45-67</p>
+                    <p>✉️ info@stroymaster-spb.ru</p>
+                    <p>⏰ Пн-Пт: 9:00-18:00, Сб-Вс: 10:00-16:00</p>
                 </div>
             </div>
             <div class="footer-bottom">
-                <p>&copy; 2025 ПрофСервис. Все права защищены.</p>
+                <p>&copy; 2025 СтройМастер. Все права защищены.</p>
+                <p>ИНН: 7801234567 | ОГРН: 1027801234567</p>
             </div>
         </div>
     </footer>
